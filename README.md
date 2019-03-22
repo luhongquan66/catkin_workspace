@@ -2,11 +2,11 @@
 
 ## 使用方法
 
-  ** 将工程克隆到本地 **
+  **将工程克隆到本地**
  
-  `git clone https://github.com/luhongquan66/catkin_workspace.git'
+  `git clone https://github.com/luhongquan66/catkin_workspace.git`
 
-  ** 编译 **
+  **编译**
   
   方法1：  
 
