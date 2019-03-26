@@ -10,8 +10,8 @@
   
   方法1：  
 
-  `catkin_make`
+  `catkin build pointcloudcluster`
 
   方法2（推荐）：
   
-  在qt下新建成ros工程进行编译 
+  在qt下新建成ros工程,使用catkinTools进行编译 

@@ -1,4 +1,5 @@
 #include <pointcloudcluster/pointcloudcluster.hpp>
+#include <slam_common/benchmarker.hpp>
 
 PointCloudCluster::PointCloudCluster(ros::NodeHandle nh)
     : nh_(nh)
