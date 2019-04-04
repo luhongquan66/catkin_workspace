@@ -50,11 +50,11 @@ namespace slam_common {
 struct BenchmarkerParams {
   /// \brief If true, the benchmarker will collect only statistics, without storing the actual
   /// measurements.
-  bool save_statistics_only;
+  bool save_statistics_only = false;
   /// \brief If true, every collected measurement or value will printed to the logger.
-  bool enable_live_output;
+  bool enable_live_output = true;
   /// \brief Path where the results will be saved.
-  std::string results_directory;
+  std::string results_directory = "/tmp/slamproject/benchmarker";
 };
 
 /// \brief Benchmark helper class. Allows collecting data and statistics about execution times and

@@ -17,6 +17,10 @@ PointCloudCluster::~PointCloudCluster(){}
 
 void PointCloudCluster::scanCallback(const sensor_msgs::PointCloud2ConstPtr& cloudMessIN)
 {
+    //程序计时使用
+    BENCHMARK_START_NEW_STEP();
+    BENCHMARK_START("SAll");
+
     pcl::PointCloud<pcl::PointXYZ> cloudIn;
 
     pcl::fromROSMsg(*cloudMessIN,cloudIn);
@@ -25,6 +29,9 @@ void PointCloudCluster::scanCallback(const sensor_msgs::PointCloud2ConstPtr& clo
     {
         ROS_INFO("%f, %f, %f \n",cloudIn.points[index].x,cloudIn.points[index].y,cloudIn.points[index].z);
     }
+
+    //程序计时使用
+    BENCHMARK_STOP("SAll");
 }
   // End of class CloudTransformer
 
