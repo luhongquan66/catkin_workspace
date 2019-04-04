@@ -8,10 +8,12 @@
 
   **编译**
 
-  `sudo apt install python-catkin-tools`
-  `sudo apt install autoconf`
-  `sudo apt install doxygen`
-  
+  ```
+  sudo apt install python-catkin-tools
+  sudo apt install autoconf
+  sudo apt install doxygen
+  ```
+
   方法1：  
 
   `catkin build pointcloudcluster`
