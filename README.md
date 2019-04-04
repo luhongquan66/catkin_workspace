@@ -7,6 +7,8 @@
   `git clone https://github.com/luhongquan66/catkin_workspace.git`
 
   **编译**
+   `sudo apt install python-catkin-tools`
+
   
   方法1：  
 

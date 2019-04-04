@@ -6,6 +6,7 @@
 #include <pcl/point_types.h>
 #include <sensor_msgs/PointCloud2.h>
 #include <tf/transform_listener.h>
+#include <pcl/conversions.h>
 
 
 class PointCloudCluster

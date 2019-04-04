@@ -20,7 +20,7 @@ include_directories(
 
 
 cs_add_executable(pointcloudcluster_node src/pointcloudcluster_node.cpp)
-target_link_libraries(pointcloudcluster_node ${PROJECT_NAME})
+target_link_libraries(pointcloudcluster_node ${PROJECT_NAME} ${PCL_LIBRARIES})
 
 cs_install()
 cs_export()
