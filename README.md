@@ -7,11 +7,21 @@
   `git clone https://github.com/luhongquan66/catkin_workspace.git`
 
   **编译**
+<<<<<<< HEAD
    
   `sudo apt install python-catkin-tools`
   `sudo apt install autoconf`
   `sudo apt install doxygen`
   
+=======
+
+  ```
+  sudo apt install python-catkin-tools
+  sudo apt install autoconf
+  sudo apt install doxygen
+  ```
+
+>>>>>>> dev
   方法1：  
 
   `catkin build pointcloudcluster`
