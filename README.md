@@ -7,8 +7,10 @@
   `git clone https://github.com/luhongquan66/catkin_workspace.git`
 
   **编译**
-   `sudo apt install python-catkin-tools`
-
+   
+  `sudo apt install python-catkin-tools`
+  `sudo apt install autoconf`
+  `sudo apt install doxygen`
   
   方法1：  
 
